@@ -2,3 +2,5 @@ _1/4/2026_: Un grupo intentó monitorear las frecuencias de la repetidora local 
 
 _7/4/2026_: Aprendí a usar el control de rotores de gpredict. Está hecho para interactuar con servidores de hamlib creados por el comando rotctld. Solo requiere que le indiquen en que dirección y puerto está el servidor. rotctld puede conectarse a rotores a través de TCP/IP o de puertos seriales. La cuestión es que el aparato que controla realmente el rotor tiene que implementar alguno de los protocolos de comunicación especificados en la lista de rotctld. Creo que el más fácil sería GS-232, ya encontré algunos ejemplos de código. Habría que probarlo en algún arduino.
 
+_10/4/2026_: Escuchamos frecuencias de aviones usando la antena dipolo.
+
